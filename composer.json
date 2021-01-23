@@ -1,0 +1,23 @@
+{
+  "name": "ellinaut/deployer-recipes",
+  "authors": [
+    {
+      "name": "Alexander Bogomolov",
+      "email": "alex@ellinaut.dev"
+    }
+  ],
+  "require": {
+    "ext-curl": "*",
+    "ext-json": "*",
+    "deployer/deployer": "^v6.8",
+    "deployer/recipes": "^6.2"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Deployer\\": "recipe/"
+    }
+  }
+}
