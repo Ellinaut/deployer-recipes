@@ -1,5 +1,8 @@
 {
   "name": "ellinaut/deployer-recipes",
+  "description": "Some custom recipes for PHP Deployer",
+  "type": "library",
+  "license": "MIT",
   "authors": [
     {
       "name": "Alexander Bogomolov",
